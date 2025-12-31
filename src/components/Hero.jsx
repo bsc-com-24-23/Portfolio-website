@@ -7,17 +7,17 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <section className="relative w-full min-h-screen mx-auto overflow-hidden">
-      {/* TEXT CONTENT */}
+      {/* Text Section */}
       <div
-        className={`absolute inset-0 top-[80px] sm:top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}
+        className={`absolute inset-0 top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}
       >
-        {/* LEFT LINE */}
+        {/* Left vertical line */}
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        {/* TEXT */}
+        {/* Hero text */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Robert</span>
@@ -25,31 +25,33 @@ const Hero = () => {
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I do{" "}
-            <Typewriter
-              options={{
-                strings: [
-                  "CyberSecurity",
-                  "Software Development",
-                  "UI/UX Design",
-                  "Data Analysis",
-                ],
-                autoStart: true,
-                loop: true,
-                pauseFor: 1000,
-                deleteSpeed: "natural",
-              }}
-            />
+            <span className="inline-block">
+              <Typewriter
+                options={{
+                  strings: [
+                    "CyberSecurity",
+                    "Software Development",
+                    "UI/UX Design",
+                    "Data Analysis",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: "natural",
+                  pauseFor: 1200,
+                }}
+              />
+            </span>
           </p>
         </div>
       </div>
 
-      {/* 3D CANVAS (DESKTOP ONLY) */}
-      <div className="hidden sm:block absolute inset-0 z-0">
+      {/* 3D Canvas Section */}
+      <div className="relative w-full h-[350px] sm:h-[550px] md:h-[650px]">
         <ComputersCanvas />
       </div>
 
-      {/* SCROLL INDICATOR */}
-      <div className="absolute xs:bottom-10 bottom-24 w-full flex justify-center items-center z-10">
+      {/* Scroll indicator */}
+      <div className="absolute xs:bottom-10 bottom-5 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
