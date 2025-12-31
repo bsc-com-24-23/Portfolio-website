@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { close, logo, menu } from '../assets';
+import { close, menu } from '../assets';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
 
@@ -8,10 +8,10 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
+  /*const toggleResume = () => {
     const resumeUrl = '/Resume.pdf';
     window.open(resumeUrl);
-  };
+  };*/
 
   useEffect(() => {
     if (toggle) {
@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [toggle]);
 
   const renderNavLinks = (isSecondary) => (
-    <ul className={`list-none ${isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'} flex-row gap-6`}>
+    <ul className={`list-none ${isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'} flex-row gap-10`}>
       {navLinks.map((link) => (
         <li
           key={link.id}
@@ -42,7 +42,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        
       </li>
     </ul>
   );
@@ -61,10 +61,10 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <img src="/logo.jpg" alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+                Robert&nbsp;
+              <span className="sm:block hidden">Nkhoma</span>
             </p>
           </Link>
           {renderNavLinks(false)}

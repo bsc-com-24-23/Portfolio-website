@@ -38,7 +38,7 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
+  { title: "JavaScript", icon: c },
   { title: "C++", icon: cpp },
   { title: "Python", icon: python },
   { title: "Java", icon: java },
@@ -61,7 +61,7 @@ export const experiences = [
     company_name: "EduSkill Foundation | AWS Academy | AICTE",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Dec 2024 - Jan 2025",
     points: [
       "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
       "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
@@ -72,7 +72,7 @@ export const experiences = [
     company_name: "Mathwork | AICTE",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "May 2024 - Sep 2024",
     points: [
       "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
       "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
@@ -84,7 +84,7 @@ export const experiences = [
     company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
     icon: edunet,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "June 2025 - July 2025",
     points: [
       "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
       "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
@@ -119,7 +119,7 @@ export const projects = [
     image: termpw,
     source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
   },
-  {
+  /*{
     name: "Mental Health Fitness Tracker",
     description:
       "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
@@ -131,8 +131,8 @@ export const projects = [
     image: mhft,
     source_code_link:
       "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
+  },*/
+  /*{
     name: "PayloadMaster",
     description:
       "Tool to automate payload creation using the Metasploit framework",
@@ -141,7 +141,7 @@ export const projects = [
     ],
     image: payloadmaster,
     source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
+  },*/
   {
     name: "CompileVortex",
     description:
@@ -154,7 +154,7 @@ export const projects = [
     image: CompileVortex,
     source_code_link: "https://github.com/lohitkolluri/CompileVortex",
   },
-  {
+  /*{
     name: "Sketcher",
     description:
       "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
@@ -166,5 +166,5 @@ export const projects = [
 
     image: sketcher,
     source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
-  },
+  },*/
 ];
