@@ -65,19 +65,12 @@ const Contact = () => {
 
     setLoading(true);
 
-    emailjs
-      .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
-        {
-          from_name: form.name,
-          to_name: "Robert nkhoma",
-          from_email: form.email,
-          to_email: "khomarobert00@gmail.com",
-          message: form.message,
-        },
-        "p-gXzzyvEhPaJ0XA-"
-      )
+emailjs.sendForm(
+  "robert_wbrv4js",       
+  "contact_form",        
+  formRef.current,
+  "p-gXzzyvEhPaJ0XA-"    
+)
       .then(
         () => {
           setLoading(false);
