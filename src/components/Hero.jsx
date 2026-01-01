@@ -6,7 +6,8 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen mx-auto overflow-hidden">
+    <section className="relative w-full min-h-screen mx-auto overflow-hidden bg-[#050816]">
+
       {/* Text Section */}
       <div
         className={`absolute inset-0 top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}
