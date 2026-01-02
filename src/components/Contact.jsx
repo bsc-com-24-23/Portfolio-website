@@ -67,7 +67,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="Your Message"
             required
-            rows={7}
+            rows={5}
             className="p-4 rounded-lg bg-gray-800 text-white"
           />
           <button

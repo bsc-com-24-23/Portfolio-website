@@ -105,7 +105,7 @@ export const projects = [
       { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    //source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
   },
   {
     name: "Terminal Like Portfolio Website",
@@ -117,7 +117,7 @@ export const projects = [
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    //source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
   },
   /*{
     name: "Mental Health Fitness Tracker",
@@ -152,7 +152,7 @@ export const projects = [
       { name: "HTML", color: "pink-text-gradient" },
     ],
     image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    //source_code_link: "https://github.com/lohitkolluri/CompileVortex",
   },
   /*{
     name: "Sketcher",

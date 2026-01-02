@@ -8,7 +8,7 @@ const EarthModel = () => {
   const { scene } = useGLTF(
     "./planet/scene.gltf",
     undefined,
-    (loader) => {
+    (loader) => { 
       const dracoLoader = new DRACOLoader();
       loader.setDRACOLoader(dracoLoader);
     }
