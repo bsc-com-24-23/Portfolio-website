@@ -107,6 +107,7 @@ export const projects = [
     image: weatherpedia,
     //source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
   },
+  /*
   {
     name: "Terminal Like Portfolio Website",
     description:
@@ -119,6 +120,7 @@ export const projects = [
     image: termpw,
     //source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
   },
+  */
   /*{
     name: "Mental Health Fitness Tracker",
     description:
